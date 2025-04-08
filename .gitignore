@@ -1,0 +1,35 @@
+# Ambiente virtual
+venv/
+.env/
+.env
+
+# Bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de log
+*.log
+
+# Cache
+.cache/
+*.db
+*.sqlite3
+
+# Arquivos do Streamlit
+.streamlit/config.toml
+
+# Configs do VSCode
+.vscode/
+
+# Dependências do Pip
+pip-wheel-metadata/
+*.egg-info/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos pessoais
+*.bak
+*.swp
